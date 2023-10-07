@@ -22,8 +22,8 @@ nav{
 }
 .logo{
     padding-top: 6rem;
-    background-image: url(images/black-on-white_2.jpg);
-    height:400px;
+    background-image: url(images/fon2.jpg);
+    height:450px;
     background-size: cover;
     text-align: center;
 }
@@ -40,17 +40,18 @@ body{overflow-x: hidden;}
     font-family: 'Yeseva One', cursive;
 }
 .coladge{
-    background-image: url(images/collage.jpg);
-    background-size: cover;
-    padding: 3rem;
+    background-color: rgb(231, 222, 91);
     font-size: 1.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .coladge>blockquote{
     background-color: rgba(255, 255, 255, 0.712) ;
 }
 .row-3{
-    background-image: url(images/phone-3.jpg);
+    background-image: url(images/fon5.jpg);
     background-size: cover;
     background-position: 50% 50%;
     
@@ -72,6 +73,18 @@ body{overflow-x: hidden;}
 .row-4{
     background-color: #a6d2d5;
 }
-
-
-
+.pronas{
+    color:black;
+    text-decoration: none;
+}
+.pronas:hover{
+    color:black;
+    animation-name: anim-pronas;
+    animation-duration: 2s;
+    text-decoration: none;
+}
+@keyframes anim-pronas {
+    0%{color:black;}
+    50%{color:aliceblue;}
+    100%{color:black}
+};
